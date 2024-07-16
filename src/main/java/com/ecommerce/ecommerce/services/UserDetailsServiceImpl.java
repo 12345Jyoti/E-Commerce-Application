@@ -7,10 +7,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.app.config.UserInfoConfig;
-import com.app.entites.User;
-import com.app.exceptions.ResourceNotFoundException;
-import com.app.repositories.UserRepo;
+import com.ecommerce.ecommerce.config.UserInfoConfig;
+import com.ecommerce.ecommerce.entites.User;
+import com.ecommerce.ecommerce.exceptions.ResourceNotFoundException;
+import com.ecommerce.ecommerce.repositories.UserRepo;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

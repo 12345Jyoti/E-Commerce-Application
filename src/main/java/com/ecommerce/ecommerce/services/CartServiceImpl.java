@@ -2,20 +2,21 @@ package com.ecommerce.ecommerce.services;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import com.ecommerce.ecommerce.entites.Cart;
+import com.ecommerce.ecommerce.entites.CartItem;
+import com.ecommerce.ecommerce.entites.Product;
+import com.ecommerce.ecommerce.exceptions.APIException;
+import com.ecommerce.ecommerce.exceptions.ResourceNotFoundException;
+import com.ecommerce.ecommerce.payloads.CartDTO;
+import com.ecommerce.ecommerce.payloads.ProductDTO;
+import com.ecommerce.ecommerce.repositories.CartItemRepo;
+import com.ecommerce.ecommerce.repositories.CartRepo;
+import com.ecommerce.ecommerce.repositories.ProductRepo;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.app.entites.Cart;
-import com.app.entites.CartItem;
-import com.app.entites.Product;
-import com.app.exceptions.APIException;
-import com.app.exceptions.ResourceNotFoundException;
-import com.app.payloads.CartDTO;
-import com.app.payloads.ProductDTO;
-import com.app.repositories.CartItemRepo;
-import com.app.repositories.CartRepo;
-import com.app.repositories.ProductRepo;
+
 
 import jakarta.transaction.Transactional;
 

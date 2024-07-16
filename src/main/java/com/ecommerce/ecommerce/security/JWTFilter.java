@@ -8,7 +8,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.app.services.UserDetailsServiceImpl;
+import com.ecommerce.ecommerce.services.UserDetailsServiceImpl;
 import com.auth0.jwt.exceptions.JWTVerificationException;
 
 import jakarta.servlet.FilterChain;

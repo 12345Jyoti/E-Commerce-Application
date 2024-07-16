@@ -1,9 +1,11 @@
 package com.ecommerce.ecommerce.services;
 
+import com.ecommerce.ecommerce.entites.Address;
+import com.ecommerce.ecommerce.payloads.AddressDTO;
+
 import java.util.List;
 
-import com.app.entites.Address;
-import com.app.payloads.AddressDTO;
+
 
 public interface AddressService {
 	

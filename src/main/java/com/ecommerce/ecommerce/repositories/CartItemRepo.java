@@ -3,8 +3,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-import com.app.entites.CartItem;
-import com.app.entites.Product;
+import com.ecommerce.ecommerce.entites.CartItem;
+import com.ecommerce.ecommerce.entites.Product;
 
 public interface CartItemRepo extends JpaRepository<CartItem, Long>{
 	

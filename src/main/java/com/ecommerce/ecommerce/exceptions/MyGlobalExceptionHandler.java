@@ -12,7 +12,7 @@ import org.springframework.web.bind.MissingPathVariableException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.app.payloads.APIResponse;
+import com.ecommerce.ecommerce.payloads.APIResponse;
 
 import jakarta.validation.ConstraintViolationException;
 

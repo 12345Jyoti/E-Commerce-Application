@@ -13,17 +13,17 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.app.entites.Cart;
-import com.app.entites.Category;
-import com.app.entites.Product;
-import com.app.exceptions.APIException;
-import com.app.exceptions.ResourceNotFoundException;
-import com.app.payloads.CartDTO;
-import com.app.payloads.ProductDTO;
-import com.app.payloads.ProductResponse;
-import com.app.repositories.CartRepo;
-import com.app.repositories.CategoryRepo;
-import com.app.repositories.ProductRepo;
+import com.ecommerce.ecommerce.entites.Cart;
+import com.ecommerce.ecommerce.entites.Category;
+import com.ecommerce.ecommerce.entites.Product;
+import com.ecommerce.ecommerce.exceptions.APIException;
+import com.ecommerce.ecommerce.exceptions.ResourceNotFoundException;
+import com.ecommerce.ecommerce.payloads.CartDTO;
+import com.ecommerce.ecommerce.payloads.ProductDTO;
+import com.ecommerce.ecommerce.payloads.ProductResponse;
+import com.ecommerce.ecommerce.repositories.CartRepo;
+import com.ecommerce.ecommerce.repositories.CategoryRepo;
+import com.ecommerce.ecommerce.repositories.ProductRepo;
 
 import jakarta.transaction.Transactional;
 

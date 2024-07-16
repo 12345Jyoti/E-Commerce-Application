@@ -1,6 +1,11 @@
 package com.ecommerce.ecommerce.controllers;
 import java.io.IOException;
 
+import com.ecommerce.ecommerce.config.AppConstants;
+import com.ecommerce.ecommerce.entites.Product;
+import com.ecommerce.ecommerce.payloads.ProductDTO;
+import com.ecommerce.ecommerce.payloads.ProductResponse;
+import com.ecommerce.ecommerce.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,11 +20,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.app.config.AppConstants;
-import com.app.entites.Product;
-import com.app.payloads.ProductDTO;
-import com.app.payloads.ProductResponse;
-import com.app.services.ProductService;
 
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;

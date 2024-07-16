@@ -1,4 +1,8 @@
 package com.ecommerce.ecommerce.controllers;
+import com.ecommerce.ecommerce.config.AppConstants;
+import com.ecommerce.ecommerce.payloads.UserDTO;
+import com.ecommerce.ecommerce.payloads.UserResponse;
+import com.ecommerce.ecommerce.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,10 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.app.config.AppConstants;
-import com.app.payloads.UserDTO;
-import com.app.payloads.UserResponse;
-import com.app.services.UserService;
 
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 

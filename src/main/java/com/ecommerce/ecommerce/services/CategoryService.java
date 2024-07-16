@@ -1,7 +1,9 @@
 package com.ecommerce.ecommerce.services;
-import com.app.entites.Category;
-import com.app.payloads.CategoryDTO;
-import com.app.payloads.CategoryResponse;
+
+
+import com.ecommerce.ecommerce.entites.Category;
+import com.ecommerce.ecommerce.payloads.CategoryDTO;
+import com.ecommerce.ecommerce.payloads.CategoryResponse;
 
 public interface CategoryService {
 

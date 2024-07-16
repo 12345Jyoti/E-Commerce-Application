@@ -1,6 +1,6 @@
 package com.ecommerce.ecommerce.services;
-import com.app.payloads.UserDTO;
-import com.app.payloads.UserResponse;
+import com.ecommerce.ecommerce.payloads.UserDTO;
+import com.ecommerce.ecommerce.payloads.UserResponse;
 
 public interface UserService {
 	UserDTO registerUser(UserDTO userDTO);

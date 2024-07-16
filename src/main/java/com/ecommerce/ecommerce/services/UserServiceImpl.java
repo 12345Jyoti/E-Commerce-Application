@@ -12,22 +12,22 @@ import org.springframework.data.domain.Sort;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.app.config.AppConstants;
-import com.app.entites.Address;
-import com.app.entites.Cart;
-import com.app.entites.CartItem;
-import com.app.entites.Role;
-import com.app.entites.User;
-import com.app.exceptions.APIException;
-import com.app.exceptions.ResourceNotFoundException;
-import com.app.payloads.AddressDTO;
-import com.app.payloads.CartDTO;
-import com.app.payloads.ProductDTO;
-import com.app.payloads.UserDTO;
-import com.app.payloads.UserResponse;
-import com.app.repositories.AddressRepo;
-import com.app.repositories.RoleRepo;
-import com.app.repositories.UserRepo;
+import com.ecommerce.ecommerce.config.AppConstants;
+import com.ecommerce.ecommerce.entites.Address;
+import com.ecommerce.ecommerce.entites.Cart;
+import com.ecommerce.ecommerce.entites.CartItem;
+import com.ecommerce.ecommerce.entites.Role;
+import com.ecommerce.ecommerce.entites.User;
+import com.ecommerce.ecommerce.exceptions.APIException;
+import com.ecommerce.ecommerce.exceptions.ResourceNotFoundException;
+import com.ecommerce.ecommerce.payloads.AddressDTO;
+import com.ecommerce.ecommerce.payloads.CartDTO;
+import com.ecommerce.ecommerce.payloads.ProductDTO;
+import com.ecommerce.ecommerce.payloads.UserDTO;
+import com.ecommerce.ecommerce.payloads.UserResponse;
+import com.ecommerce.ecommerce.repositories.AddressRepo;
+import com.ecommerce.ecommerce.repositories.RoleRepo;
+import com.ecommerce.ecommerce.repositories.UserRepo;
 
 import jakarta.transaction.Transactional;
 

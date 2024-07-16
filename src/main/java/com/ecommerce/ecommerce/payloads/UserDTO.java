@@ -2,7 +2,7 @@ package com.ecommerce.ecommerce.payloads;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.app.entites.Role;
+import com.ecommerce.ecommerce.entites.Role;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,10 @@
 package com.ecommerce.ecommerce.controllers;
 import java.util.List;
 
+import com.ecommerce.ecommerce.config.AppConstants;
+import com.ecommerce.ecommerce.payloads.OrderDTO;
+import com.ecommerce.ecommerce.payloads.OrderResponse;
+import com.ecommerce.ecommerce.services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,10 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.app.config.AppConstants;
-import com.app.payloads.OrderDTO;
-import com.app.payloads.OrderResponse;
-import com.app.services.OrderService;
+
 
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 

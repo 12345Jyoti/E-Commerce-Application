@@ -1,7 +1,8 @@
 package com.ecommerce.ecommerce.services;
+import com.ecommerce.ecommerce.payloads.CartDTO;
+
 import java.util.List;
 
-import com.app.payloads.CartDTO;
 
 public interface CartService {
 	

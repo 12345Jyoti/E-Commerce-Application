@@ -1,8 +1,10 @@
 package com.ecommerce.ecommerce.services;
+import com.ecommerce.ecommerce.payloads.OrderDTO;
+import com.ecommerce.ecommerce.payloads.OrderResponse;
+
 import java.util.List;
 
-import com.app.payloads.OrderDTO;
-import com.app.payloads.OrderResponse;
+
 
 public interface OrderService {
 	
